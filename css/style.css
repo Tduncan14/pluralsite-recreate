@@ -76,3 +76,30 @@ h6{
     padding: 0.5rem 1rem;
     line-height:1.3rem;
 }
+
+/*button*/
+.primary-btn{
+    padding:0.7rem 1rem;
+    height: 2.7rem;
+    display:block;
+    border:0;
+    border-radius:2px;
+    font-weight:500;
+    background:#f96816;
+    color: #fff;
+    text-decoration:none;
+    cursor:pointer;
+
+}
+
+
+/* Media Queries */
+@media(min-width: 1200px){
+    #left {
+        flex:4;
+    }
+
+    #right {
+        flex:6;
+    }
+}

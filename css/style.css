@@ -98,10 +98,13 @@ h6{
     text-decoration:none;
     cursor:pointer;
     text-align:center;
-    transition: all 0.5s;
+    transition: background-color 0.5s;
 
 }
 
+.primary-btn:hover{
+    background-color: #ff7b39;
+}
 
 /* Media Queries */
 @media(min-width: 1200px){

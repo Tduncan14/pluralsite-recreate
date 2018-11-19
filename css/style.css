@@ -22,3 +22,26 @@ h6{
     display:flex;
     flex-direction:row;
 }
+#left{
+ display:flex;
+ flex:1;
+ flex-direction:column;
+ align-items:center;
+ justify-content: center; 
+ height:100vh;
+
+}
+
+#right{
+    flex:1;
+}
+
+/* */
+#signin{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    padding-bottom: 1rem;
+}
